@@ -3,9 +3,149 @@
   margin: 0;
   padding: 0;
 }
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f8f8;
+  color: #222;
 }
+
+/* Smooth scrolling for anchors */
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  transform: translateY(-2px);
+}
+
+section {
+  position: relative;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 8rem 2rem;
+  background: url('/chessboard-bg.jpg') center/cover no-repeat;
+  color: #fff;
+  animation: fadeIn 1s ease-in;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero a {
+  padding: 1rem 2rem;
+  background: #ff4c4c;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.hero a:hover {
+  background: #e03c3c;
+  transform: translateY(-3px);
+}
+
+/* Features Grid */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.feature-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.feature-card img {
+  width: 60px;
+  margin-bottom: 1rem;
+}
+
+/* About Section */
+.about {
+  padding: 6rem 2rem;
+  background: #222;
+  color: #fff;
+  text-align: center;
+  animation: fadeIn 1s ease-in;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+/* CTA Section */
+.cta {
+  padding: 6rem 2rem;
+  text-align: center;
+  background: #ff4c4c;
+  color: #fff;
+  animation: fadeIn 1s ease-in;
+}
+
+.cta a {
+  padding: 1rem 2rem;
+  background: #fff;
+  color: #ff4c4c;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.cta a:hover {
+  background: #ffe5e5;
+  transform: translateY(-3px);
+}
+
+/* Footer */
+footer {
+  padding: 2rem;
+  text-align: center;
+  background: #111;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+
+/* Responsive Text */
+@media (max-width: 768px) {
+  .hero h1 { font-size: 2.2rem; }
+  .hero p { font-size: 1.2rem; }
+  .feature-card img { width: 50px; }
 }
