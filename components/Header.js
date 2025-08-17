@@ -7,7 +7,7 @@ export default function Header() {
       <nav>
         <a href="#features" style={{ margin: '0 1rem' }}>Features</a>
         <a href="#about" style={{ margin: '0 1rem' }}>About</a>
-        <a href="#contact" style={{ margin: '0 1rem' }}>Contact</a>
+        <a href="#contact" style={{ margin: '0 1rem' }}>Sign Up</a>
       </nav>
     </header>
   )
