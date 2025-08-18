@@ -3,7 +3,7 @@ export default function About() {
     <section className="about">
       <h2>Why Whoso Live?</h2>
       <p>
-        Whoso Live is your arena to explore strategy, challenge your curiosity, and stay ahead of the game.
+        Whyso Live is your arena to explore strategy, challenge your curiosity, and stay ahead of the game.
         Every move counts — sharpen your mind, connect with peers, and elevate your skills.
       </p>
     </section>

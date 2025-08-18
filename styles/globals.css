@@ -32,7 +32,7 @@ section {
 .hero {
   text-align: center;
   padding: 8rem 2rem;
-  background: url('/chessboard-bg.jpg') center/cover no-repeat;
+  background: url('/chessboard-bg.jpg.png') center/cover no-repeat;
   color: #fff;
   animation: fadeIn 1s ease-in;
 }
