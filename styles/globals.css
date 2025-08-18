@@ -149,3 +149,14 @@ footer {
   .hero p { font-size: 1.2rem; }
   .feature-card img { width: 50px; }
 }
+
+body {
+  background-color: #f8f9fa;
+  background-image: 
+    linear-gradient(45deg, rgba(0,0,0,0.03) 25%, transparent 25%), 
+    linear-gradient(-45deg, rgba(0,0,0,0.03) 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, rgba(0,0,0,0.03) 75%), 
+    linear-gradient(-45deg, transparent 75%, rgba(0,0,0,0.03) 75%);
+  background-size: 40px 40px;
+}
+

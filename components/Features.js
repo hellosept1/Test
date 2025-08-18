@@ -2,7 +2,7 @@ const features = [
   { title: 'Strategic Challenges', desc: 'Solve puzzles that sharpen your mind.', icon: '/knight.svg.png' },
   { title: 'Community Matches', desc: 'Play and learn with like-minded players.', icon: '/bishop.svg.png' },
   { title: 'Learning Resources', desc: 'Explore tips, tricks, and tutorials.', icon: '/feature1.svg.png' },
-  { title: 'Track Progress', desc: 'Visualize your growth and victories.', icon: '/feature1.svg.png' }
+  { title: 'Track Progress', desc: 'Visualize your growth and victories.', icon: '/soldier.svg.png' }
 ];
 
 export default function Features() {
