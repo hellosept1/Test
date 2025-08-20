@@ -66,14 +66,14 @@ section {
 .hero a {
   padding: 1rem 2rem;
   background: #443d3d;
-  color: #fff;
+  color: #1e1c1c;
   border-radius: 5px;
   font-weight: bold;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .hero a:hover {
-  background: #e03c3c;
+  background: #201d1d;
   transform: translateY(-3px);
 }
 
