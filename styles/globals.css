@@ -65,7 +65,7 @@ section {
 
 .hero a {
   padding: 1rem 2rem;
-  background: #ff4c4c;
+  background: #443d3d;
   color: #fff;
   border-radius: 5px;
   font-weight: bold;
@@ -124,7 +124,7 @@ section {
 .cta {
   padding: 6rem 2rem;
   text-align: center;
-  background: #ff4c4c;
+  background: #201e1e;
   color: #fff;
   animation: fadeIn 1s ease-in;
 }
@@ -132,7 +132,7 @@ section {
 .cta a {
   padding: 1rem 2rem;
   background: #fff;
-  color: #ff4c4c;
+  color: #2a2626;
   border-radius: 5px;
   font-weight: bold;
   transition: transform 0.3s ease, background 0.3s ease;
@@ -164,7 +164,7 @@ footer {
   .hero p { font-size: 1.2rem; }
   .feature-card img { width: 50px; }
 }
-
+/*
 body {
   background-color: #f8f9fa;
   background-image: 
@@ -174,4 +174,4 @@ body {
     linear-gradient(-45deg, transparent 75%, rgba(0,0,0,0.03) 75%);
   background-size: 40px 40px;
 }
-
+*/
